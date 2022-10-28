@@ -1,0 +1,128 @@
+body{
+    background-color: #f0f2f5;
+    font-family: inherit;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0 72px 0;
+
+}
+.container form{
+    width: 332px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 14px 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form input{
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-top: 8px;
+    border: 1px solid #dddfe2;
+}
+
+.login-btn{
+    margin-top: 10px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+}
+
+.login-btn:hover{
+    background-color: #1864f2f3;;
+    cursor: pointer;
+}
+
+.forget-link{
+    margin-top: 10px;
+    text-align: center;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+
+}
+
+.create-link {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 8px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: 700;
+    margin: 10px 50px;
+}
+
+.create-link:hover{
+    background-color: #42b72ae7;
+    cursor: pointer;
+}
+
+.create-page-link{
+    text-align: center;
+    margin-top: 30px;
+}
+.title-div h1{
+    font-size: 60px;
+    color: #1877f2;
+}
+.title-div p{
+    margin-top: -30px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.title-div{
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .container{
+        margin-top: -40px;
+        flex-direction: column;
+ 
+    
+    }
+    .container-form{
+        margin-top: -120px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container{
+        margin-top: -40px;
+        flex-direction: column;
+ 
+    
+    }
+    .container-form{
+        margin-top: -120px;
+        margin-right: 40px;
+    }
+}
