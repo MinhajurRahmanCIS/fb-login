@@ -23,6 +23,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+
 .form input{
     font-size: 17px;
     border-radius: 8px;
@@ -53,6 +54,7 @@ body{
     color: #1877f2;
     font-size: 14px;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .line {
